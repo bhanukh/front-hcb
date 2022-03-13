@@ -42,16 +42,14 @@
   
   
 }
-.cw{
-  display: none;
-}
+
 .navbar-nav {
   margin-left: 20%;
 }
 .navbar-nav li a  {
   margin-left: 50px;
   color: white;
-  background: #3d3d3e;
+  
   text-align: center;
   font-weight: bold;
   letter-spacing: 1px;
@@ -391,13 +389,13 @@ hr{
   width: 55px;
   margin-left: 2.5rem ;
 }
-
+.cw{
+  display: none;
+  
+}
 
 .navbar-nav li a {
-  margin-left: 50px;
-  color: white;
-  font-weight: bold;
-  letter-spacing: 1px;
+  background: #3d3d3e;
 }
 .money {
   height: 200px;
