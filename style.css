@@ -397,7 +397,7 @@ hr{
 }
 .money {
   height: 200px;
-  width: 350px;
+  width: 335px;
   position: relative;
   top: 20%;
   left: 14%;
@@ -452,7 +452,7 @@ hr{
 }
 .count span {
   margin-left: 10px;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 .btn button {
   padding: 5px 3rem;
