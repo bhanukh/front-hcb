@@ -143,7 +143,7 @@
 }
 .quantity {
   height: 230px;
-  width: 600px;
+  width: 400px  ;
   /* border: 1px solid rgb(119, 117, 117); */
   color: yellow;
   padding-top: 1.5rem;
@@ -388,9 +388,7 @@ hr{
   margin-left: 3rem ;
 }
 
-.navbar-nav {
-  margin-left: 20%;
-}
+
 .navbar-nav li a {
   margin-left: 50px;
   color: white;
@@ -399,7 +397,7 @@ hr{
 }
 .money {
   height: 200px;
-  width: 600px;
+  width: 350px;
   position: relative;
   top: 20%;
   left: 14%;
@@ -419,7 +417,11 @@ hr{
 
 /* Section2 */
 
-
+.heading {
+  height: 150px;
+  width: 300px;
+  margin-top: 4rem;
+}
 .cards {
   height: auto;
   width: 65%;
@@ -450,7 +452,7 @@ hr{
 }
 .count span {
   margin-left: 10px;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .btn button {
   padding: 5px 3rem;
