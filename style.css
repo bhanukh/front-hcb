@@ -39,13 +39,20 @@
   font-weight: bold;
   letter-spacing: 1px;
   margin-right: 10%;
+  
+  
+}
+.cw{
+  display: none;
 }
 .navbar-nav {
   margin-left: 20%;
 }
-.navbar-nav li a {
+.navbar-nav li a  {
   margin-left: 50px;
   color: white;
+  background: #3d3d3e;
+  text-align: center;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -54,7 +61,7 @@
   height: 200px;
   width: 600px;
   position: relative;
-  top: 20%;
+  top: 22%;
   left: 14%;
   font-family: "Smooch Sans", sans-serif;
 }
@@ -62,7 +69,7 @@
   font-size: 6rem;
   color: rgb(255, 255, 83);
   font-weight: bold;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 #money-on {
   font-size: 6rem;
