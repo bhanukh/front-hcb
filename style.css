@@ -368,6 +368,7 @@ hr{
   width: 24px;
   background-color: #ffffff;
   margin-top: 4px;
+  margin-left: 4rem !important;
 }
 .logo img {
   height: 55px;
@@ -421,6 +422,31 @@ hr{
   background: transparent;
   border: none;
   margin-left: -1rem;
+}
+
+.quantity {
+  height: 230px;
+  width: 300px;
+  /* border: 1px solid rgb(119, 117, 117); */
+  color: yellow;
+  padding-top: 1.5rem;
+  /* background-color: rgb(126, 125, 125); */
+  background: rgba(19, 18, 18, 0.1);
+  backdrop-filter: blur(5px);
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.count span {
+  margin-left: 10px;
+  font-size: 3rem;
+}
+.btn button {
+  padding: 5px 3rem;
+  background-color: rgb(255, 255, 8);
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
 }
 /* section 3 */
 .section3 {
