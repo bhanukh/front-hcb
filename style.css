@@ -349,6 +349,12 @@ hr{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Smooch Sans", sans-serif;
+    }
   
 .navi {
   height: 80vh !important ;
@@ -363,12 +369,18 @@ hr{
   backdrop-filter: blur(3px);
   /* background-color: lightgrey; */
 }
+.navbar button{
+  height: auto;
+  width: auto;
+  border: none;
+}
 .toggle{
   height: 3px;
   width: 24px;
   background-color: #ffffff;
   margin-top: 4px;
-  margin-left: 4rem !important;
+  margin-left: 2px !important;
+  border: none;
 }
 .logo img {
   height: 55px;
