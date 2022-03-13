@@ -20,6 +20,7 @@
   backdrop-filter: blur(3px);
   /* background-color: lightgrey; */
 }
+
 .toggle{
   height: 3px;
   width: 24px;
@@ -48,6 +49,7 @@
   font-weight: bold;
   letter-spacing: 1px;
 }
+
 .money {
   height: 200px;
   width: 600px;
@@ -369,23 +371,18 @@ hr{
   backdrop-filter: blur(3px);
   /* background-color: lightgrey; */
 }
+
+
 .navbar button{
   height: auto;
   width: auto;
   border: none;
 }
-.toggle{
-  height: 3px;
-  width: 24px;
-  background-color: #ffffff;
-  margin-top: 4px;
-  margin-left: 2px !important;
-  border: none;
-}
+
 .logo img {
   height: 55px;
   width: 55px;
-  margin-left: 3rem ;
+  margin-left: 2.5rem ;
 }
 
 
@@ -452,7 +449,8 @@ hr{
 }
 .count span {
   margin-left: 10px;
-  font-size: 5rem;
+  font-size: 3rem;
+  font-weight: 200;
 }
 .btn button {
   padding: 5px 3rem;
@@ -491,6 +489,22 @@ hr{
   height: 200px;
   width: 95% !important;
   padding-top: 7px;
+}
+
+/* SECTION 4 */
+.section4 {
+  height: auto;
+  width: 100%;
+  background-image: url("./images/section4.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  padding-bottom: 4rem;
 }
 
 
